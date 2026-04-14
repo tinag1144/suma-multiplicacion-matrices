@@ -1,0 +1,61 @@
+/* fondo general */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffe4ec; /* rosita pastel */
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+/* título */
+h2 {
+  color: #d63384;
+}
+
+/* inputs */
+input {
+  margin: 5px;
+  padding: 6px;
+  border: 1px solid #ffb6c1;
+  border-radius: 8px;
+  text-align: center;
+  outline: none;
+}
+
+/* botones */
+button {
+  margin: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff69b4;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* efecto hover */
+button:hover {
+  background-color: #ff1493;
+  transform: scale(1.05);
+}
+
+/* contenedor de matrices */
+#matrices {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #fff0f5;
+  border-radius: 15px;
+  display: inline-block;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* resultado */
+#resultado {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #ffe6f0;
+  border-radius: 15px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
